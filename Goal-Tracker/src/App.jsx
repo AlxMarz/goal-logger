@@ -1,20 +1,28 @@
 import './App.css';
 import BucketList from './components/BucketList';
-import Navbar from './components/Navbar';
-import {useState} from 'react';
-import Calendar from 'react-calendar'; 
+import Nav from './components/NavTabs';
+import { Outlet } from 'react-router-dom';
+
+
 
 function App() {
-  const [date, setDate] = useState(new Date())
 
-  
+
+
   return (
-    
-    <div className="bucket-app">
-      <Navbar/>
-      <BucketList />
-    </div>
-    
+
+    <>
+      <Nav />
+      <main className="mx-3">
+        <Outlet />
+        <div className="bucket-app">
+          <Nav />
+          <BucketList />
+        </div>
+      </main>
+    </>
+
+
   );
 }
 
