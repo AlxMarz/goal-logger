@@ -16,7 +16,6 @@ function App() {
       <main className="mx-3">
         <Outlet />
         <div className="bucket-app">
-          <Nav />
           <BucketList />
         </div>
       </main>

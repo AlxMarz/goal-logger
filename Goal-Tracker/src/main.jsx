@@ -10,10 +10,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 //imported from class repo  
 import App from './App';
 import Error from './pages/Error';
-import Home from './pages/Home';
+import GoalTracker from './pages/GoalTracker';
 import Contact from './pages/Contact';
-import About from './pages/About';
-import Blog from './pages/Blog';
+import Calender from './pages/Calender';
+import Stats from './pages/Stats';
 
 
 const router = createBrowserRouter([
@@ -24,15 +24,15 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
+        element: <GoalTracker />,
       },
       {
-        path: '/About',
-        element: <About />,
+        path: '/Calender',
+        element: <Calender />,
       },
       {
-        path: '/Blog',
-        element: <Blog />,
+        path: '/Stats',
+        element: <Stats />,
       },
       {
         path: '/Contact',
