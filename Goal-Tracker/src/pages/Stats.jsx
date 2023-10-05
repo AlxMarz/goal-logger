@@ -1,4 +1,4 @@
-export default function Blog() {
+export default function Stats() {
   return (
     <div>
       <h1>Statistcs Page</h1>
