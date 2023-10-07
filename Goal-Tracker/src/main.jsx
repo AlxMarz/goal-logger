@@ -12,7 +12,7 @@ import App from './App';
 import Error from './pages/Error';
 import GoalTracker from './pages/GoalTracker';
 import Contact from './pages/Contact';
-import Stats from './pages/Stats';
+import Calender from './pages/Calender';
 
 
 const router = createBrowserRouter([
@@ -30,8 +30,8 @@ const router = createBrowserRouter([
         element: <GoalTracker />,
       },
       {
-        path: '/Stats',
-        element: <Stats />,
+        path: '/Calender',
+        element: <Calender />,
       },
       {
         path: '/Contact',

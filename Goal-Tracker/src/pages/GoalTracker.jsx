@@ -1,11 +1,11 @@
 import BucketList from '../components/BucketList';
 
-export default function Calender() {
+export default function GoalTracker() {
   return (
     <div>
-      <h1>GoalTracker</h1>
+      <h1>GoalTrackerTracker</h1>
       <p>
-    Calender
+    GoalTracker
       </p>
       <div className="bucket-app">
           <BucketList />
