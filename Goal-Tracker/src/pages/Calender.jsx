@@ -1,9 +1,9 @@
-export default function Calender() {
+export default function GoalTracker() {
   return (
     <div>
-      <h1>Calender</h1>
+      <h1>Goal Tracker</h1>
       <p>
-    Calender
+    List of goals to track
       </p>
     </div>
   );

@@ -12,7 +12,6 @@ import App from './App';
 import Error from './pages/Error';
 import GoalTracker from './pages/GoalTracker';
 import Contact from './pages/Contact';
-import Calender from './pages/Calender';
 import Stats from './pages/Stats';
 
 
@@ -27,8 +26,8 @@ const router = createBrowserRouter([
         element: <GoalTracker />,
       },
       {
-        path: '/Calender',
-        element: <Calender />,
+        path: '/GoalTracker',
+        element: <GoalTracker />,
       },
       {
         path: '/Stats',

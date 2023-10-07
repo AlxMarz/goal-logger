@@ -102,24 +102,24 @@ h3 {
 .low {
   background: linear-gradient(
     90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
+    rgb(12, 241, 12) 0%,
+    rgb(162, 193, 162) 100%
   );
 }
 
 .medium {
   background: linear-gradient(
     90deg,
-    rgba(255, 12, 241, 1) 0%,
-    rgba(250, 0, 135, 1) 100%
+    rgb(16, 19, 219) 0%,
+    rgb(74, 53, 229) 100%
   );
 }
 
 .high {
   background: linear-gradient(
     90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
+    rgb(225, 12, 5) 0%,
+    rgb(243, 107, 92) 100%
   );
 }
 

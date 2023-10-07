@@ -9,21 +9,21 @@ function NavTabs() {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <Link
-          to="/GoalTracker"
-          // This is a conditional (ternary) operator that checks to see if the current page is "GoalTracker"
+          to="/Root"
+          // This is a conditional (ternary) operator that checks to see if the current page is "Root"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === '/GoalTracker' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Root' ? 'nav-link active' : 'nav-link'}
         >
-          Goal Tracker
+          Root
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/Calender"
-          // Check to see if the currentPage is `Calender`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Calender' ? 'nav-link active' : 'nav-link'}
+          to="/GoalTracker"
+          // Check to see if the currentPage is `GoalTracker`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === '/GoalTracker' ? 'nav-link active' : 'nav-link'}
         >
-          Calender
+          GoalTracker
         </Link>
       </li>
       <li className="nav-item">

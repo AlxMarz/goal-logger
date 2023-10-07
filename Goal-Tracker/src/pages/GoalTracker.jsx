@@ -1,10 +1,15 @@
-export default function GoalTracker() {
+import BucketList from '../components/BucketList';
+
+export default function Calender() {
   return (
     <div>
-      <h1>Goal Tracker</h1>
+      <h1>GoalTracker</h1>
       <p>
-    List of goals to track
+    Calender
       </p>
+      <div className="bucket-app">
+          <BucketList />
+        </div>
     </div>
   );
 }
