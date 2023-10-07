@@ -5,9 +5,6 @@ export default function GoalTracker() {
       <p>
     List of goals to track
       </p>
-      <div className="bucket-app">
-          <BucketList />
-        </div>
     </div>
   );
 }

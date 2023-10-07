@@ -28,11 +28,11 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/Blog"
-          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Blog' ? 'nav-link active' : 'nav-link'}
+          to="/Stats"
+          // Check to see if the currentPage is `Stats`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === '/Stats' ? 'nav-link active' : 'nav-link'}
         >
-          Blog
+          Stats
         </Link>
       </li>
       <li className="nav-item">
