@@ -68,7 +68,7 @@ function App() {
    return (
       <div>
       <h3>
-         Creating the <i> calendar component </i> from scratch using React JS
+         Days worked on Goal
       </h3>
       <div className = "main">
          <div className = "header">
@@ -79,9 +79,9 @@ function App() {
                   year: "numeric",
                })}
             </h2>
-            <button onClick = {changeToNextMonth}> > </button>
-         </div>
-         <div className = "body">{showCalendar()} </div>
+            <button onClick = {changeToNextMonth}> {'>'} </button>
+         </div>  
+         <div className = "body">{showCalendar()} {'<'} </div>
             {sDate && (
                <div className = "selected-date">
                   Selected Date: {sDate.toLocaleDateString()}
