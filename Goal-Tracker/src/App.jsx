@@ -2,7 +2,7 @@ import './App.css';
 // import BucketList from './components/BucketList';
 import Nav from './components/NavTabs';
 import { Outlet } from 'react-router-dom';
-import StopWatch from './components/StopWatch';
+// import StopWatch from './components/StopWatch';
 
 
 
